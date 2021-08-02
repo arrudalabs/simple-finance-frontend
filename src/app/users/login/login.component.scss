@@ -1,0 +1,75 @@
+$shadow: 15px 10px 10px #385766;
+
+.form-principal{
+    background-color: #FFFFFF;
+    max-width: 330px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: $shadow;
+    z-index: 1;
+
+    h3{
+        color: #5f7c8a;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    ._form{
+        outline: 0;
+        border-radius: 10px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        &[type="email"], &[type="password"]{
+            width: 100%;
+            height: 45px;
+            border: 1px solid #c1c1c1;
+            padding-left: 40px;
+        }
+
+        &[type="email"]:hover, &[type="password"]:hover{
+            border: 1px solid #4A5F6A;
+        }
+    }
+}
+
+.mybtn{
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    background-color: #5f7c8a;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    margin: 0.8rem 0;
+
+    &:hover{
+        background-color: #4A5F6A;
+    }
+}
+
+span{
+    font-size: 13px;
+    color: #4A5F6A;
+}
+.oder{
+    position: relative;
+}
+
+.order i{
+    position: relative;
+    z-index: 2;
+    left: 20px;
+    top: 12px;
+    font-size: 17px;
+    color: #4A5F6A;
+    transform: translate(-50%);
+}
+

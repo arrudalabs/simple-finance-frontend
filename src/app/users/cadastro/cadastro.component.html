@@ -1,0 +1,42 @@
+<div class="container">    
+    <div class="row header">
+        <h3 class="text-center mb-4">Novo Usuário</h3>
+    </div>
+    <div class="row g-3 mb-2">
+        <div class="col-sm icon_position">
+            <i class="far fa-user icon"></i>
+            <input type="text" class="form-control" placeholder="Username" aria-label="User">
+        </div>
+    </div>
+    <div class="row g-3 mt-2">
+        <div class="col-sm icon_position">
+            <input type="email" class="form-control" placeholder="E-mail" aria-label="E-mail">
+            <i class="far fa-envelope icon"></i>
+        </div>
+    </div>
+
+    <div class="row g-3 mt-2">
+        <div class="col-sm icon_position">
+            <input type="password" class="form-control" placeholder="Password">
+            <i class="fas fa-unlock-alt icon icon"></i>
+        </div>
+        <div class="col-sm icon_position">
+            <i class="fas fa-unlock-alt icon"></i>
+            <input type="password" class="form-control" placeholder="Repeat password">
+        </div>
+        <div class="form-text">A senha teve ter no minimo 6 caracteres.</div>
+    </div>
+
+    <div class="row ">
+        <div class="col-sm text-center">
+            <button type="button" class="my-btn ok" routerLink='/index'>
+                <i class="fas fa-check icon_ajust"></i>Cadastrar
+            </button>
+        </div>
+        <div class="col-sm text-center">
+            <button type="button" class="my-btn x" routerLink='/'>
+                <i class="fas fa-user-times icon_ajust"></i>Cancelar
+            </button>
+        </div>
+    </div>
+</div>
