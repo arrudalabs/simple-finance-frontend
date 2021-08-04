@@ -1,6 +1,21 @@
-$ft_color: #88d317;
-$bg_color1: #6E3667;
-$bg_color: #5f7c8a;
+$color1: #dee2e6;
+$color2: #aeae92;
+$color3: #00234a;
+$color4: #005861;
+$color5: #6e948b;
+
+body
+{
+    background: $color1;
+}
+
+.ft-padrao{
+    color: $color4;
+}
+
+.bg_clr{
+    background-color: $color4;
+}
 
 @mixin mybtn {
     width: 100%;
@@ -12,15 +27,9 @@ $bg_color: #5f7c8a;
     transition: all .3s ease-in-out;    
     margin: 1rem 0;
 }
-
-body
-{
-    background: $bg_color;
-}
-
 .enter{
     @include mybtn();
-    background-color: $bg_color;
+    background-color: $color1;
 }
 .x{
     @include mybtn();
@@ -48,3 +57,16 @@ body
     font-size: 1rem;
 }
 
+.dv-grid{
+    padding: 30px;
+}
+
+@mixin mq-md {
+    display: flex;
+}
+
+@media (max-width: 600px){
+    .sidebar{
+        @include mq-md();
+    }
+}

@@ -9,6 +9,8 @@ import { LoginComponent } from './users/login/login.component';
 import { CadastroComponent } from './users/cadastro/cadastro.component';
 import { RecuperarsenhaComponent } from './users/recuperarsenha/recuperarsenha.component';
 import { IndexComponent } from './users/index/index.component';
+import { NavbarComponent } from './users/navbar/navbar.component';
+import { MenulateralComponent } from './users/menulateral/menulateral.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { IndexComponent } from './users/index/index.component';
     LoginComponent,
     CadastroComponent,
     RecuperarsenhaComponent,
-    IndexComponent
+    IndexComponent,
+    NavbarComponent,
+    MenulateralComponent
   ],
   imports: [
     BrowserModule,
