@@ -1,0 +1,49 @@
+$bg_color: #5f7c8a;
+$shadow: 15px 10px 10px #385766;
+
+.container{
+    background-color: #FFFFFF;
+    width: 370px;
+    min-width: 300px;
+    min-height: 350px;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    z-index: 1;
+    box-shadow: $shadow;
+
+    label{
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        text-transform: uppercase;
+        color: #5f7c8a;
+    }
+}
+
+.icon_ajust{
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.icon_position{
+    position: relative;
+
+    .form-control{
+        padding-left: 30px;
+        font-size: 14px;
+    }
+
+    .icon{        
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-size: 15px;
+        color: #4A5F6A;
+    }
+}

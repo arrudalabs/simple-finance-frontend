@@ -1,0 +1,72 @@
+$color1: #dee2e6;
+$color2: #aeae92;
+$color3: #00234a;
+$color4: #005861;
+$color5: #6e948b;
+
+body
+{
+    background: $color1;
+}
+
+.ft-padrao{
+    color: $color4;
+}
+
+.bg_clr{
+    background-color: $color4;
+}
+
+@mixin mybtn {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;    
+    margin: 1rem 0;
+}
+.enter{
+    @include mybtn();
+    background-color: $color1;
+}
+.x{
+    @include mybtn();
+    background-color: rgba(255, 0, 0, 0.8);
+
+    &:hover, &:active{
+        background-color: rgba(255, 0, 0, 1);
+    }
+}
+.ok{
+    @include mybtn();
+    background-color: rgba(0,128,0, 0.9);
+
+    &:hover, &:active{
+        background-color: rgba(0,128,0, 1);
+    }
+}
+
+.div_link{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: #5f7c8a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.dv-grid{
+    padding: 30px;
+}
+
+@mixin mq-md {
+    display: flex;
+}
+
+@media (max-width: 600px){
+    .sidebar{
+        @include mq-md();
+    }
+}
