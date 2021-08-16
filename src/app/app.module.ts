@@ -8,9 +8,10 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './users/login/login.component';
 import { CadastroComponent } from './users/cadastro/cadastro.component';
 import { RecuperarsenhaComponent } from './users/recuperarsenha/recuperarsenha.component';
-import { IndexComponent } from './users/index/index.component';
-import { NavbarComponent } from './users/navbar/navbar.component';
-import { MenulateralComponent } from './users/menulateral/menulateral.component';
+import { DashboardComponent } from './users/dashboard/dashboard.component';
+import { DespesasComponent } from './users/despesas/despesas.component';
+import { ReceitasComponent } from './users/receitas/receitas.component';
+import { DashgraphComponent } from './users/dashgraph/dashgraph.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +19,10 @@ import { MenulateralComponent } from './users/menulateral/menulateral.component'
     LoginComponent,
     CadastroComponent,
     RecuperarsenhaComponent,
-    IndexComponent,
-    NavbarComponent,
-    MenulateralComponent
+    DashboardComponent,
+    DespesasComponent,
+    ReceitasComponent,
+    DashgraphComponent
   ],
   imports: [
     BrowserModule,

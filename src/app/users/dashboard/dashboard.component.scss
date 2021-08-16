@@ -1,0 +1,86 @@
+$shadow: 15px 10px 10px #aeae92;
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 300px;
+    height: 100%;
+    background-color: #FFFFFF;
+
+    display: flex;
+	align-items: center;
+	position: relative;
+}
+
+main{
+    display: block;
+    height: 100%;
+}
+
+.main-content{
+    width: 100%;
+    margin: 0 1rem;
+}
+
+.box-menu{
+    box-sizing: border-box;
+    width: 250px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0.1rem 3px #b3b4b4;
+}
+
+#myCanvas{
+    padding: 1rem;
+}
+
+.canvas{
+    box-sizing: border-box;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: $shadow;
+}
+
+.dash-nav{
+    height: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 3px #b3b4b4;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.8rem;
+}
+
+.txt-title{
+    display: flex;
+    align-items: center;
+}
+
+.p-list{
+    padding: 0;
+    margin: 0;
+}
+
+.f-rigth{
+    float: right;
+}
+
+.f-left{
+    float: left;
+}
+
+.size-icon{
+    padding: 1rem;
+}
+
+.div-center{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.icon-size{
+    font-size: 30px;
+    margin: 20px;
+}

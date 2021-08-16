@@ -3,7 +3,7 @@ $shadow: 15px 10px 10px #385766;
 
 .container{
     background-color: #FFFFFF;
-    width: 370px;
+    width: 55%;
     min-width: 300px;
     min-height: 350px;
     padding: 20px;
@@ -14,6 +14,7 @@ $shadow: 15px 10px 10px #385766;
     border-radius: 15px;
     z-index: 1;
     box-shadow: $shadow;
+    padding: 2rem;
 
     label{
         font-size: 13px;
@@ -26,7 +27,11 @@ $shadow: 15px 10px 10px #385766;
     }
 }
 
-.icon_ajust{
-    padding-right: 10px;
-    font-size: 18px;
+.position-ck{
+    display: flex;
+    justify-content: flex-end;
+    
+    .form-check{
+        padding-right: 1rem;
+    }
 }
