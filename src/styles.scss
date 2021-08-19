@@ -3,6 +3,14 @@ $color2: #aeae92;
 $color3: #00234a;
 $color4: #005861;
 $color5: #6e948b;
+$color6: #2104a5;
+
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
 
 body
 {
@@ -69,4 +77,45 @@ body
     .sidebar{
         @include mq-md();
     }
+}
+
+
+
+.icon_position{
+    position: relative;
+
+    .form-control{
+        padding-left: 30px;
+        font-size: 14px;
+    }
+
+    .icon{        
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        font-size: 15px;
+        color: #4A5F6A;
+    }
+}
+
+.form-check-input{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-check-inline{
+    margin-top: 0.5rem;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.blue-dark{
+    color: $color6;
+}
+.font-bold{
+    font-weight: bold;
 }
